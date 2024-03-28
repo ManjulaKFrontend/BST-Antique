@@ -1,0 +1,183 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"raleway" ;
+    font-weight: bold;
+}
+
+:root{
+    --btn-color: #22878e;
+    --btn:18px;
+    --nav-links:23px;
+    --main-head:40px;
+    --input:20px;
+    --coffe-menu-head:25px;
+    --s-paragraph:16px;
+    --L-paragraph:18px;
+    --menu-name:18px;
+    --menu-rs:18px;
+    --main-font-family:"raleway";
+    --second-font-family:"oswald";
+}
+.nav-link{
+    color: #bd885a;
+ }
+
+
+
+
+
+#intro{
+background: url(images/antique-cafe-bg-01.jpg);
+background-size: cover;
+flex-direction: column;
+position: relative;
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/*blackbox1*/
+.blackbox1{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-top: 30vh;  
+}
+.head-1{
+    font-family: "oswald";
+    font-size: var(--main-head);
+}
+.head1-para{
+       color: rgb(148,123,100);
+    font-size: var(--L-paragraph);
+   letter-spacing: 1px;
+}
+/*blackbox2*/
+.blackbox2{
+    font-size: 14px;
+   background-color: rgba(0, 0, 0, 0.75);
+}
+.blackbox2-para{
+    color: #c3bfbf;
+    font-size: var(--s-paragraph);   
+}
+.blackbox2 span{
+    color:#b7ad6a;
+}
+.blackbox3{
+    color:#bd885a;
+    background-color: rgba(0, 0, 0, 0.75);  
+}
+
+/*menu-section*/
+#menu{
+    font-size: var(--main-head);
+   background: url(images/antique-cafe-bg-02.jpg);
+background-size: cover;
+flex-direction: column;
+position: relative;
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+} 
+
+
+
+
+
+
+#menu h1{
+    color: #584434;
+}
+
+#menu .col-sm-12{
+    font-size: var(--menu-name);
+    background-color:  #584434;
+}
+.list-item{
+    color: #cd9f50!important;
+}
+.menu-rs{
+    font-size: var(--menu-rs);
+    color:  #c3bfbf!important;   
+}
+/*about-section*/
+
+#about{
+background-image: url(images/antique-cafe-bg-03.jpg);
+background-size: cover;
+flex-direction: column;
+position: relative;
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.about-h1{
+    font-size: var(--main-head);
+    color: #20666b;
+}
+#about .contact-btn{
+    background-color:#22878e;
+    font-size: var(--btn);
+    color: #c3bfbf;
+    position: absolute;  
+}
+
+.about-para1{
+
+    font-size: var(--L-paragraph); 
+}
+
+.about-para2{
+   
+      font-size: var(--L-paragraph); 
+  }
+/*contact section*/
+#contact{
+    background-image: url(images/antique-cafe-bg-04.jpg);
+    background-position:cover ;
+    position: relative;
+    width: 100%;
+  min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact .contact-section{
+    background-color: rgba(245, 245, 245, 0.847);
+}
+#contact .contact-h1{
+    font-size:var(--main-head);
+    color: #20666b; 
+    
+}
+#contact button{
+    background-color: #22878e;
+}
+.contact-para{
+    font-size: var(--L-paragraph);
+}
+
+.form-section{
+    background-color: rgba(0, 0, 0, 0.683);
+    color:#cd9f50!important;
+}
+
+.col-lg{
+    font-size: var(--menu-rs);
+}
+#contact .send-it{
+    padding-left: 80%;
+}
